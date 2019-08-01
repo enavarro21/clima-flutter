@@ -74,3 +74,9 @@ class _LocationScreenState extends State<LocationScreen> {
     );
   }
 }
+
+
+//  // Unpacking JSON data, access to longitude from weather API
+//     double temperature = decodedData['main']['temp'];
+//     int condition = decodedData['weather'][0]['id'];
+//     String cityName = decodedData['name'];
