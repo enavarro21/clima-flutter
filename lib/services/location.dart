@@ -3,8 +3,9 @@ import 'package:geolocator/geolocator.dart';
 class Location {
   double latitude;
   double longitude;
-
+  
   Future<void> getCurrentLocation() async {
+    print('check testing');
     // Must add permissions for Android and ios into correct files before use
     try {
       Position position = await Geolocator()
